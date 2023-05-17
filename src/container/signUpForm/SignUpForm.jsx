@@ -21,6 +21,9 @@ const SignUpForm = () => {
       model: "",
       year: "",
     };
+
+    const carData1 = { ...carData, brand: "Mercedes" };
+    console.log("car data 1", carData1);
   };
   return (
     <div className="signup-container">
